@@ -8,8 +8,6 @@ while user_input != "Fin":
 length_list = len(my_list)
 current_index = 0
 
-while current_index < length_list:
-    print("Tengo que comprar {}".format(my_list[current_index]))
-    current_index += 1
-
+for item in my_list:
+    print("Tengo que comprar {}".format(item))
 print("Esta es la lista del super")
